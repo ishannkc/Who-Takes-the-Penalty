@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        #250b0b 0%,
+        #461e1e 50%,
+        #2d0c0c 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.player {
+    width: 110px;
+    margin-bottom: 80px;
+}
+
+.title {
+    position: relative;
+    bottom: 100px;
+}
+
+.title h1 span {
+    color: rgb(149, 141, 141);
+}
+
+.title h1 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #eef6f1;
+    margin-bottom: 0px;
+}
+
+.title p {
+    color: #eef6f1;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+button {
+    padding: 0.85rem 2.6rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #f2f7f4;
+    color: #1b3d28;
+}
+
+.secondary {
+    background-color: #7a1f2f;
+    color: #ffffff;
+}
+
+.primary:hover {
+    background-color: #bcbfbd;
+}
+
+.secondary:hover {
+    background-color: #641a28;
+}
+
+
+
+/* unclickable */
+.top-right {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.bottom-left{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+.top-left{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.bottom-right{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.random1{
+    position: fixed;
+    right: 20px;
+}
+.random2{
+    position: fixed;
+    left: 20px;
+}
+.random3{
+    position: absolute;
+    bottom: 100%;
+    left: 30%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; 
+}
+.random4{
+    position: absolute;
+    bottom: 100%;
+    left: 70%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; 
+}
+.random5{
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; 
+}
+.random6{
+    position: absolute;
+    bottom: 20%;
+    left: 80%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; 
+}
+.random7{
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    transform: translateX(-50%);
+    margin-bottom: 20px; 
+}
