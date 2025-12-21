@@ -17,7 +17,7 @@ const positions = [
 ]
 
 //needs to be declared in global scope, so that previous position can be stored
- let currentPosition = ""
+ let currentPosition = "" 
 meBtn.addEventListener('mouseover', function(){
     //removing previous positions, to prevent from overlapping
     for (let i=0; i<positions.length; i++){
