@@ -25,9 +25,6 @@ Eventually, the user is left with only one sensible and clickable option — **R
 - Click **Ronaldo** → confirmation message appears
 - Both buttons disappear after the correct choice
 
-Message shown:
-> *“Smart choice. Leave the miracles to the man who makes them.”*
-
 ---
 
 ## 🛠 Tech Stack
