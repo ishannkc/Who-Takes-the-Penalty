@@ -1,6 +1,8 @@
 # ⚽ Who Takes the Penalty
 
-![Recording 2025-12-21 105506](https://github.com/user-attachments/assets/58cc963d-4916-434e-aab7-6de25ad427ae)
+
+![demo](https://github.com/user-attachments/assets/26b4934c-3c5d-4c40-b81b-cc371c082894)
+
 
 A fun, web-based **troll UI** that puts the user under pressure to decide who takes a crucial penalty.
 
