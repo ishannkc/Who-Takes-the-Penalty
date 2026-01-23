@@ -3,13 +3,21 @@ const RonaldoBtn = document.getElementById('ronaldo-btn')
 
 RonaldoBtn.addEventListener('click', function(){
     setTimeout(function(){
-        document.getElementById('phrase').innerHTML =  `<p id="phrase">Smart choice. <br>Leave the miracles to the man who makes them.</p>`
+         getRandomQuote()
         document.getElementById('penalty').style.color = '#17632dff'
         meBtn.style.display = 'none'
         RonaldoBtn.style.display = 'none'
 
     },700)  
 })
+
+function getRandomQuote(){
+    fetch("quotes.json")
+        .then(respone => respone.json())
+        .then(data => {
+            document.getElementById('phrase').textContent = data[Math.floor(Math.random()*(data.length))]
+        })
+}
 
 const positions = [
     'top-right', 'bottom-left', 'top-left', 'bottom-right', 'random1', 'random2',
