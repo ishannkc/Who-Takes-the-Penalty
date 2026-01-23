@@ -24,7 +24,7 @@ Eventually, the user is left with only one sensible and clickable option — **R
 
 - Hover over **Me** → the button jumps to another position
 - Try again → it jumps again
-- Click **Ronaldo** → confirmation message appears
+- Click **Ronaldo** → random Quote of Ronaldo renders using fetch() API call
 - Both buttons disappear after the correct choice
 
 ---
